@@ -29,7 +29,7 @@
 
 echo (saludar('Mario'));
 
-$suma = suma (1,42);
+$suma = suma (1,4);
 echo $suma;
 
 ?>
