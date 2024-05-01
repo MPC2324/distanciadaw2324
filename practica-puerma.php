@@ -1,7 +1,7 @@
 <?php
 /**
 *  @author Mario Puerma Cortes
-*  @version 1.0
+*  @version 1.1
 */
 
 /**
@@ -21,15 +21,15 @@
 * Función saludar con paso de parámetro o argumento nombre
 * @param string $nombre
 * @return string
-* {@internal Esto es solo para los desarrolladores}
+* {@internal funcion simple}
 */
   function saludar($nombre){
-     return "Hola " . $nombre;
+     return "Hola, como estás " . $nombre;
   }
 
 echo (saludar('Mario'));
 
-$suma = suma (24,42);
+$suma = suma (1,42);
 echo $suma;
 
 ?>
